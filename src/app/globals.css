@@ -29,6 +29,22 @@ body {
   font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
 }
 
+/* Scrollbar fino (1px) para contenedores con overflow horizontal */
+.thin-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-muted) transparent;
+}
+.thin-scroll::-webkit-scrollbar {
+  height: 1px;
+}
+.thin-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.thin-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--color-muted);
+  border-radius: 9999px;
+}
+
 /******************** Dark mode ********************/
 :root.dark {
 --color-bg: #0F172A; /* slate-900 */

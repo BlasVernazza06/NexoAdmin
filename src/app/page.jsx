@@ -1,5 +1,5 @@
-import Hero from "@/app/components/hero";
-import Branding from "@/app/components/branding";
+import Hero from "../app/components/hero";
+import Branding from "../app/components/branding";
 import CTASec from "./components/ctaSec";
 import FooterHome from "./components/footerHome";
 

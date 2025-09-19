@@ -1,7 +1,7 @@
 'use client'
 
 import {useState} from 'react'
-import AuthCard from "@/app/components/authCard"
+import AuthCard from "../../components/authCard"
 import { Eye, EyeOff, Lock, Mail } from 'lucide-react'
 import Link from 'next/link'
 
@@ -82,6 +82,12 @@ export default function Login() {
                                 className='text-[var(--color-brand)]'
                             >
                                 Registrate aquí
+                            </Link>
+                            <Link
+                                href={'/dashboard'}
+                                className='text-[var(--color-brand)]'
+                            >
+                                Ingresar como invitado
                             </Link>
                         </footer>
 
